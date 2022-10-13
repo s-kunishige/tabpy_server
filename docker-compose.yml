@@ -1,0 +1,13 @@
+version: '3'
+services:
+  tabpy_server:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9004:9004
+      - 8888:8888
+    volumes:
+      - type: bind
+        source: "./workspace"
+        target: "/workspace"
