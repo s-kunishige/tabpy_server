@@ -56,6 +56,7 @@ client.deploy('kmeans',
 ```
 
 ### tableauからtabpy serverの実行
+[サンプルのダッシュボード](https://drive.google.com/file/d/1MFTelvdyohEJd-T41TpjRVv8Y0iOWcLk/view)  
 tableauから直接pythonを実行する場合はtableauの計算フィールドで
 ```
 SCRIPT_INT(
