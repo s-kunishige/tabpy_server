@@ -1,11 +1,12 @@
 # tabpy & jupyter notebook
 
 ### dockerコンテナの立ち上げとjupyterの使用
-プロンプト(ターミナル)で`docker compose up`を実行する  
+このプロジェクトのローカルにクローンする  
+プロンプト(ターミナル)でこのプロジェクトのディレクトリに移動して`docker compose up`を実行する  
 プロンプトの出力の`http://127.0.0.1:8888/?token=<tokenの文字列>`をブラウザで開くとjupyter notebookを使用できる
 
 ### tableauからtabpy serverへの接続
-Tableauを開いて  
+Tableau Desktopからダッシュボードを開いて 
 設定>設定とパフォーマンス>分析の拡張機能接続の管理  
 から
 ホスト名:localhost  
