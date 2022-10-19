@@ -7,7 +7,7 @@
 
 ### tableauからtabpy serverへの接続
 Tableau Desktopからダッシュボードを開いて 
-設定>設定とパフォーマンス>分析の拡張機能接続の管理  
+ヘルプ>設定とパフォーマンス>分析の拡張機能接続の管理  
 から
 ホスト名:localhost  
 port:9004  
